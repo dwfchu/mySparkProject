@@ -14,6 +14,7 @@ object App {
 
     //config test
     println(ConfigFileManager.getConfig("my.config"))
+    println("test")
 
     val spark = SparkSession.builder()
       //remove to run on cluster
